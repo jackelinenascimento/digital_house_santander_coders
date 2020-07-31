@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form action="" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" name="nome" value="" required/> 
+        <label for="sobrenome">Sobrenome:</label>
+        <input type="text" name="sobrenome" value="" required/>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" placeholder="exemplo@hotmail.com">
+        <label for="assunto">Assunto da mensagem:</label>
+        <select name="assunto" class="assunto">
+            <option value="elogio">Elogios</option>
+            <option value="duvidas">Duvidas</option>
+            <option value="sugestoes">Sugestões</option>
+        </select>
+        <label for="genero">Gênero:</label>
+        <input type="radio" name="genero" id="feminino" value="feminino"/>
+        <label for="feminino">Feminino</label>
+        <input type="radio"
+        name="genero" 
+        id="masculino"
+        value="masculino"/>
+        <label for="masculino">Masculino</label>
+        <input type="radio" name="genero"
+        id="none"
+        value="none"/>
+        <label for="none">Prefiro não responder</label>
+        <label for="passatempos">Passatempos:</label>
+        <input type="checkbox" name="passatempos" id="corrida">
+        <label for="corrida">Corrida</label>
+        <input type="checkbox" name="passatempos" id="andar">
+        <label for="andar">Andar</label>
+        <input type="checkbox" name="passatempos" id="ler">
+        <label for="ler">Ler</label>
+        <input type="checkbox" name="passatempos" id="cinema">
+        <label for="cinema">Cinema</label>
+        <input type="checkbox" name="passatempos" id="teatro">
+        <label for="teatro">Teatro</label>
+        <label for="comentarios">Comentários:</label>
+        <textarea name="comentarios" id="comentarios" cols="30" rows="10" required></textarea>
+        <button type="reset">Excluir</button>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>

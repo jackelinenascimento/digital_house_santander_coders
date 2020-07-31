@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    color: purple;
+    text-align: center;
+    font-style: italic;
+}
+
+h2 {
+    color: red;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 14px;
+    text-align: justify;
+    line-height: 14px;
+}

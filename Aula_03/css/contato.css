@@ -1,0 +1,16 @@
+form {
+    display: block;
+}
+
+input:focus{
+    background-color: yellow;
+}
+
+textarea:focus{
+    background-color: violet;
+}
+
+textarea{
+    height: 200px;
+}
+
